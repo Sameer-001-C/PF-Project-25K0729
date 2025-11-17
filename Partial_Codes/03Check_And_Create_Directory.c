@@ -1,3 +1,7 @@
+//This code must run on client side upon logging in.
+//User input for Client_A_UserName would change to the variable that is the current client's name.
+//In the directory that is created, will the chats of that particular client be stored in.
+
 #include <direct.h>
 #include <io.h>       // <-- needed for _access()
 #include <stdio.h>
