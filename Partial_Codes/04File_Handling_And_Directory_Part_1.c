@@ -1,3 +1,5 @@
+//Purely for Client Side System/Script
+
 #include <direct.h>
 #include <io.h>       // <-- needed for _access()
 #include <stdio.h>
