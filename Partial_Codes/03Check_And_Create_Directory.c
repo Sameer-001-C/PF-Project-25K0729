@@ -16,7 +16,7 @@ int main() {
 
     scanf("%c", &buffer); // consume leftover newline
 
-    char location[100] = "D:/PF_Project/Server/Chats/";
+    char location[100] = "D:/PF_Project/Client/Chats/";
     strcat(location, Client_A_UserName);
 
     // ----------------------------
