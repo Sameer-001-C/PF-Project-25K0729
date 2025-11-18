@@ -1,7 +1,7 @@
 //This would be the actual path tho
 
 //ClientA refers to the person using the client software
-
+//Donot use this Code. An easier implementation has been divised.
 #include <stdio.h>
 #include <dirent.h>
 #include <string.h>
