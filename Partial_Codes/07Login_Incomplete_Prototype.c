@@ -1,5 +1,7 @@
 /*At this point, the below code is still missing some few elements. It works by taking the username and password from the user,
-making necessary directories for the user. As soon as
+making necessary directories for the user. As soon as you add a new friend, the username of that friend is added to address.txt.
+
+address.txt basically stores the friends Usernames/UserID inside it, for the particular client.
 */
 #include <direct.h>
 #include <io.h>       // <-- needed for _access()
