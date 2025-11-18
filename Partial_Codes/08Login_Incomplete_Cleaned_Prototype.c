@@ -24,11 +24,11 @@ int main() {
 
     printf("Please enter username: ");
     scanf("%s", client_username);
-    scanf(" %c", &temp_char);  // Consume leftover newline
+    scanf("%c", &temp_char);  // Consume leftover newline
 
     printf("Please enter password: ");
     scanf("%s", password);
-    scanf(" %c", &temp_char);  // Consume leftover newline
+    scanf("%c", &temp_char);  // Consume leftover newline
 
     // ============================
     // CLIENT FOLDER SETUP
