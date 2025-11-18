@@ -17,10 +17,10 @@ int main() {
 	
 	printf("Please enter username: "); //25K0729
 	scanf("%s", clientAUsername);
-    scanf(" %c", &buffer); // consume leftover newline
+    scanf("%c", &buffer); // consume leftover newline
 	printf("Please enter password: ");
 	scanf("%s", password);
-    scanf(" %c", &buffer); // consume leftover newline	
+    scanf("%c", &buffer); // consume leftover newline	
     char Client_A_UserName[50]; //Client A is our current client, who is currently using this client program
     
     strcpy(Client_A_UserName, clientAUsername);
