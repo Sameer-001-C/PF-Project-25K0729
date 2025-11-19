@@ -4,7 +4,8 @@ making necessary directories for the user. As soon as you add a new friend, the 
 address.txt basically stores the friends Usernames/UserID inside it, for the particular client.
 */
 
-//Same code as 07Login_Incomplete_Prototype.c, just with more consistent variable names and flow.
+// Same code as 07Login_Incomplete_Prototype.c, just with more consistent variable names and flow.
+// Added creation of directories if not already existing
 
 #include <direct.h>
 #include <io.h>       // for _access()
